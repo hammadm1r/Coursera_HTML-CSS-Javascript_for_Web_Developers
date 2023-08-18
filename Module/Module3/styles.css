@@ -1,91 +1,96 @@
-body{
-	font-size: 16px;	
-  font-family: 'Exo 2', sans-serif;
+.container-fluid{
+	margin: 0;
+	padding: 0;
 }
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
-  border: 2px solid #000 !important;
+
+.navbar{
+	border-radius: 0px;
+	background-color: rgba(0,0,0,0.8);
 }
-#header-nav{
-  background-color:#999999;  
-  border:2px solid #000; 
-  border-radius: 0;
-}
+
 .navbar-brand{
-  margin-top: 10px;
-  padding-top:10px;
+  font-size: 35px;
+  color: white;
+  padding-left: 25px;
 }
+
+.navbar-brand:hover{
+	color: white;
+}
+
+.nav{
+	margin: 0;
+	padding: 0;
+}
+
 .navbar-nav{
-  margin:0 -15px !important;
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
-.navbar-brand h1{
-  color: #000;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
-  margin-left: 15px;
+
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
 }
-.navbar-brand a:hover, .navbar-brand a:focus{
-  text-decoration: none;  
+
+.icon-bar{
+	background-color: white;
 }
-#nav-list{
-  border:1px solid;
-}
-#nav-list:nth-child(3){
-  border-bottom:0;
-}
-#nav-list li{
-  background:#fff;
-  border-bottom:2px solid;
-}
-#nav-list li:nth-child(3){
-  border-bottom:0;
-}
-#nav-list li a{
-  color:#000;
-  font-weight: 600;
-  line-height: 8px
-}
-.menu{
-  margin:15px; 
-}
+
+
 .main-title{
-  font-weight: bold;
-  margin-top: -3px;
-}
-.menu-content{ 
-  margin-top:40px;
-}
-.menu-title{
+  margin-bottom: 15px;
+  text-align: center;
+  color: #ff4532;
+  font-size: 50px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-weight: bold;
 }
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
 .menu-item{
-  margin-bottom: 20px;
-  background:#999999;  
-  padding: 10px;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
 }
-.menu-item h4 {
-  font-weight: bold;
+
+.menu-item:hover{
+	background-color: rgba(0,0,0,0.9);
+	color: rgba(0,0,0,0.4);
 }
-.menu-item p{
-  font-weight:600;
-  font-size: .9em;
-  padding: 5px 10px;
+
+
+
+.row{
+	margin: 20px;
 }
-@media (max-width:767px){
-  .navbar-brand:focus, .navbar-brand{
-    margin-left:10px;
-  }
-  .menu{
-    width: 80%;
-    margin-right:auto;
-    margin-left:auto;
-    margin-bottom: 15px;
-  }
-  .menu-item p{
-    font-weight: 600;
-    font-size: 1em;
-    padding:5px 15px;
-  }
+
+.content-box{
+	margin: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+	background-color: rgba(0,0,0,0.2);
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 20px;
+}
+
+.item-name{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#top{
+
 }
