@@ -1,4 +1,4 @@
-( function () {
+(function () {
 
     var names = ["Hammad", "Farooq", "Meer", "Rabeel", "Hamza", "Frank", "Larry", "Paula", "Laura", "Jim"];
     
